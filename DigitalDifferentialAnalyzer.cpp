@@ -1,4 +1,4 @@
-void Client::DDA_LineDrawer(int x1,int x2, int y1, int y2, unsigned int color)
+void DDA_LineDrawer(int x1,int x2, int y1, int y2, unsigned int color)
 {
     float m; //slope
     float b=0; //y intercept
